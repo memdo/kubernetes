@@ -20,8 +20,8 @@ spec:
         - containerPort: 5000
         env:
         - name: APP_VERSION
-          value: "1.0"
+          value: "2.0"
         - name: THEME_NAME
-          value: "Mavi Tema"
+          value: "Green Theme"
         - name: THEME_COLOR
-          value: "#3498db"
+          value: "#2ecc71"
