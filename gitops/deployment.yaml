@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: gitops-webapp:v1
+        image: gitops-webapp:v2
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
