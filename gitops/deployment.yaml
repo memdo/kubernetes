@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: gitops-webapp:v2
+        image: gitops-webapp:v1
         imagePullPolicy: Never
         ports:
         - containerPort: 5000
         env:
         - name: APP_VERSION
-          value: "2.0"
+          value: "1.0"
         - name: THEME_NAME
-          value: "Green Theme"
+          value: "Blue Theme"
         - name: THEME_COLOR
-          value: "#2ecc71"
+          value: "#3498db"

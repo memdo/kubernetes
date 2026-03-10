@@ -4,9 +4,9 @@ import os
 app = Flask(__name__)
 
 # Configurable items via Environment Variables
-VERSION = os.getenv("APP_VERSION", "2.0")
-THEME_COLOR = os.getenv("THEME_COLOR", "#2ecc71") # Default Blue
-THEME_NAME = os.getenv("THEME_NAME", "Green Theme")
+VERSION = os.getenv("APP_VERSION", "1.0")
+THEME_COLOR = os.getenv("THEME_COLOR", "#3498db") # Default Blue
+THEME_NAME = os.getenv("THEME_NAME", "Blue Theme")
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>
